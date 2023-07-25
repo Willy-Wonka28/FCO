@@ -1,0 +1,76 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Gothic+A1&family=Montserrat:wght@500;700&family=Orbitron&family=Oswald:wght@300&family=Playfair+Display:wght@500&family=Roboto:wght@100&family=Rock+3D&family=Rouge+Script&display=swap');
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+}
+body{
+    background-color: #F5F5DC ;
+    color:	black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    cursor: pointer;
+    background-image:url("Screenshot\ \(228\).png");
+    font-size: 20px;
+    padding-bottom:75px;
+    border-bottom: solid 5px #5C4033;
+}
+.bball{
+    position: relative;
+    
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    transform: translate(-500px, 112px);
+}
+.head1, .head2, .head3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.head1{
+    width:25%;
+}
+.head1 .time{
+    text-align: center;
+}
+.head1 .time:hover{
+    text-decoration: underline;
+}
+.head2{
+    padding-top: 50px;
+    width:50%;
+    font-family: 'Fraunces', serif; 
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.head2{
+    position: relative;
+}
+.basket{
+    position:absolute;
+    transform: translateY(-10px);
+    opacity:0.75;
+    z-index:1;
+}
+.h1{
+    font-size: 32px;
+}
+.head3{
+    width:25%;
+}
+.nav1:hover{
+    text-decoration: underline;
+}
+.nav2:hover{
+    text-decoration: underline;
+}
+.nav3:hover{
+    text-decoration: underline;
+}
